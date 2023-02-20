@@ -11,3 +11,10 @@ export function addShooting(pdf) {
   const shootingButton = document.querySelector(".cta-btn--shooting");
   shootingButton.setAttribute("href", pdf);
 }
+
+export function addIcef(pdf) {
+  if (!pdf) return;
+
+  const icefButton = document.querySelector(".cta-btn--icef");
+  icefButton.setAttribute("href", pdf);
+}
